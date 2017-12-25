@@ -1,0 +1,466 @@
+run:
+Enter the number of nodes:
+15
+x=15y=50
+x=74y=88
+x=91y=66
+x=36y=88
+x=23y=13
+x=22y=17
+x=56y=57
+x=52y=59
+x=80y=78
+x=73y=19
+x=53y=28
+x=65y=72
+x=67y=31
+x=48y=92
+x=0y=28
+	2147483647	45	74	31	36	32	40	35	58	49	30	44	48	25	16
+	45	2147483647	13	38	54	48	25	18	8	68	56	13	56	25	43
+	74	13	2147483647	50	42	48	33	38	4	43	0	25	25	34	82
+	31	38	50	2147483647	73	69	23	24	42	58	57	24	47	11	48
+	36	54	42	73	2147483647	3	29	35	31	49	25	41	40	74	17
+	32	48	48	69	3	2147483647	21	29	18	50	28	34	42	70	19
+	40	25	33	23	29	21	2147483647	3	11	33	28	12	23	34	47
+	35	18	38	24	35	29	3	2147483647	20	34	30	0	23	32	41
+	58	8	4	42	31	18	11	20	2147483647	58	42	13	45	28	62
+	49	68	43	58	49	50	33	34	58	2147483647	17	52	10	68	72
+	30	56	0	57	25	28	28	30	42	17	2147483647	42	13	63	53
+	44	13	25	24	41	34	12	0	13	52	42	2147483647	40	10	47
+	48	56	25	47	40	42	23	23	45	10	13	40	2147483647	57	66
+	25	25	34	11	74	70	34	32	28	68	63	10	57	2147483647	42
+	16	43	82	48	17	19	47	41	62	72	53	47	66	42	2147483647
+	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0
+	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0
+	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0
+	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0
+	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0
+	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0
+	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	0
+	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	0
+	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0
+	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0
+	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	0
+	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	0
+	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	0
+	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1
+idx:14 smallest:16
+idx:14 smallest:16
+smallest node =14 hop=0 current_node:0 Stack size=0
+Connectedness :false
+yes
+idx:4 smallest:17
+idx:4 smallest:17
+smallest node =4 hop=1 current_node:14 Stack size=1
+Connectedness :false
+yes
+idx:5 smallest:3
+idx:5 smallest:3
+smallest node =5 hop=2 current_node:4 Stack size=2
+Connectedness :false
+yes
+idx:8 smallest:18
+idx:8 smallest:18
+smallest node =8 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:2 smallest:4
+idx:2 smallest:4
+smallest node =2 hop=4 current_node:8 Stack size=4
+Connectedness :false
+No
+idx:14 smallest:19
+idx:14 smallest:19
+smallest node =14 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:7 smallest:41
+idx:7 smallest:41
+smallest node =-1 hop=4 current_node:14 Stack size=4
+Connectedness :false
+No
+idx:6 smallest:21
+idx:6 smallest:21
+smallest node =6 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:7 smallest:3
+idx:7 smallest:3
+smallest node =7 hop=4 current_node:6 Stack size=4
+Connectedness :false
+No
+idx:10 smallest:28
+idx:10 smallest:28
+smallest node =10 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:2 smallest:0
+idx:2 smallest:0
+smallest node =2 hop=4 current_node:10 Stack size=4
+Connectedness :false
+No
+idx:7 smallest:29
+idx:7 smallest:29
+smallest node =7 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:11 smallest:0
+idx:11 smallest:0
+smallest node =11 hop=4 current_node:7 Stack size=4
+Connectedness :false
+No
+idx:0 smallest:32
+idx:0 smallest:32
+smallest node =0 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:13 smallest:25
+idx:13 smallest:25
+smallest node =13 hop=4 current_node:0 Stack size=4
+Connectedness :false
+No
+idx:11 smallest:34
+idx:11 smallest:34
+smallest node =11 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:7 smallest:0
+idx:7 smallest:0
+smallest node =7 hop=4 current_node:11 Stack size=4
+Connectedness :false
+No
+idx:12 smallest:42
+idx:12 smallest:42
+smallest node =12 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:9 smallest:10
+idx:9 smallest:10
+smallest node =9 hop=4 current_node:12 Stack size=4
+Connectedness :false
+No
+idx:1 smallest:48
+idx:1 smallest:48
+smallest node =1 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:8 smallest:8
+idx:8 smallest:8
+smallest node =8 hop=4 current_node:1 Stack size=4
+Connectedness :false
+No
+idx:2 smallest:48
+idx:2 smallest:48
+smallest node =2 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:10 smallest:0
+idx:10 smallest:0
+smallest node =10 hop=4 current_node:2 Stack size=4
+Connectedness :false
+No
+idx:9 smallest:50
+idx:9 smallest:50
+smallest node =9 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:12 smallest:10
+idx:12 smallest:10
+smallest node =12 hop=4 current_node:9 Stack size=4
+Connectedness :false
+No
+idx:3 smallest:69
+idx:3 smallest:69
+smallest node =3 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:13 smallest:11
+idx:13 smallest:11
+smallest node =13 hop=4 current_node:3 Stack size=4
+Connectedness :false
+No
+idx:13 smallest:70
+idx:13 smallest:70
+smallest node =13 hop=3 current_node:5 Stack size=3
+Connectedness :false
+yes
+idx:11 smallest:10
+idx:11 smallest:10
+smallest node =11 hop=4 current_node:13 Stack size=4
+Connectedness :false
+No
+idx:-1 smallest:2147483647
+Here!@java.lang.ArrayIndexOutOfBoundsException: -1
+smallest node =-1 hop=3 current_node:5 Stack size=3
+Connectedness :false
+No
+idx:10 smallest:25
+idx:10 smallest:25
+smallest node =10 hop=2 current_node:4 Stack size=2
+Connectedness :false
+yes
+idx:2 smallest:0
+idx:2 smallest:0
+smallest node =2 hop=3 current_node:10 Stack size=3
+Connectedness :false
+yes
+idx:8 smallest:4
+idx:8 smallest:4
+smallest node =8 hop=4 current_node:2 Stack size=4
+Connectedness :false
+No
+idx:12 smallest:13
+idx:12 smallest:13
+smallest node =12 hop=3 current_node:10 Stack size=3
+Connectedness :false
+yes
+idx:9 smallest:10
+idx:9 smallest:10
+smallest node =9 hop=4 current_node:12 Stack size=4
+Connectedness :false
+No
+idx:9 smallest:17
+idx:9 smallest:17
+smallest node =9 hop=3 current_node:10 Stack size=3
+Connectedness :false
+yes
+idx:12 smallest:10
+idx:12 smallest:10
+smallest node =12 hop=4 current_node:9 Stack size=4
+Connectedness :false
+No
+idx:6 smallest:28
+idx:6 smallest:28
+smallest node =6 hop=3 current_node:10 Stack size=3
+Connectedness :false
+yes
+idx:7 smallest:3
+idx:7 smallest:3
+smallest node =7 hop=4 current_node:6 Stack size=4
+Connectedness :false
+No
+idx:0 smallest:30
+idx:0 smallest:30
+smallest node =0 hop=3 current_node:10 Stack size=3
+Connectedness :false
+yes
+idx:13 smallest:25
+idx:13 smallest:25
+smallest node =13 hop=4 current_node:0 Stack size=4
+Connectedness :false
+No
+idx:7 smallest:30
+idx:7 smallest:30
+smallest node =7 hop=3 current_node:10 Stack size=3
+Connectedness :false
+yes
+idx:11 smallest:0
+idx:11 smallest:0
+smallest node =11 hop=4 current_node:7 Stack size=4
+Connectedness :false
+No
+idx:8 smallest:42
+idx:8 smallest:42
+smallest node =8 hop=3 current_node:10 Stack size=3
+Connectedness :false
+yes
+idx:2 smallest:4
+idx:2 smallest:4
+smallest node =2 hop=4 current_node:8 Stack size=4
+Connectedness :false
+No
+idx:11 smallest:42
+idx:11 smallest:42
+smallest node =11 hop=3 current_node:10 Stack size=3
+Connectedness :false
+yes
+idx:7 smallest:0
+idx:7 smallest:0
+smallest node =7 hop=4 current_node:11 Stack size=4
+Connectedness :false
+No
+idx:14 smallest:53
+idx:14 smallest:53
+smallest node =14 hop=3 current_node:10 Stack size=3
+Connectedness :false
+yes
+idx:7 smallest:41
+idx:7 smallest:41
+smallest node =-1 hop=4 current_node:14 Stack size=4
+Connectedness :false
+No
+idx:1 smallest:56
+idx:1 smallest:56
+smallest node =1 hop=3 current_node:10 Stack size=3
+Connectedness :false
+yes
+idx:8 smallest:8
+idx:8 smallest:8
+smallest node =8 hop=4 current_node:1 Stack size=4
+Connectedness :false
+No
+idx:3 smallest:57
+idx:3 smallest:57
+smallest node =3 hop=3 current_node:10 Stack size=3
+Connectedness :false
+yes
+idx:13 smallest:11
+idx:13 smallest:11
+smallest node =13 hop=4 current_node:3 Stack size=4
+Connectedness :false
+No
+idx:13 smallest:63
+idx:13 smallest:63
+smallest node =13 hop=3 current_node:10 Stack size=3
+Connectedness :false
+yes
+idx:11 smallest:10
+idx:11 smallest:10
+smallest node =11 hop=4 current_node:13 Stack size=4
+Connectedness :false
+No
+idx:-1 smallest:2147483647
+Here!@java.lang.ArrayIndexOutOfBoundsException: -1
+smallest node =-1 hop=3 current_node:10 Stack size=3
+Connectedness :false
+No
+idx:6 smallest:29
+idx:6 smallest:29
+smallest node =6 hop=2 current_node:4 Stack size=2
+Connectedness :false
+yes
+idx:7 smallest:3
+idx:7 smallest:3
+smallest node =7 hop=3 current_node:6 Stack size=3
+Connectedness :false
+yes
+idx:11 smallest:0
+idx:11 smallest:0
+smallest node =11 hop=4 current_node:7 Stack size=4
+Connectedness :false
+No
+idx:8 smallest:11
+idx:8 smallest:11
+smallest node =8 hop=3 current_node:6 Stack size=3
+Connectedness :false
+yes
+idx:2 smallest:4
+idx:2 smallest:4
+smallest node =2 hop=4 current_node:8 Stack size=4
+Connectedness :false
+No
+idx:11 smallest:12
+idx:11 smallest:12
+smallest node =11 hop=3 current_node:6 Stack size=3
+Connectedness :false
+yes
+idx:7 smallest:0
+idx:7 smallest:0
+smallest node =7 hop=4 current_node:11 Stack size=4
+Connectedness :false
+No
+idx:3 smallest:23
+idx:3 smallest:23
+smallest node =3 hop=3 current_node:6 Stack size=3
+Connectedness :false
+yes
+idx:13 smallest:11
+idx:13 smallest:11
+smallest node =13 hop=4 current_node:3 Stack size=4
+Connectedness :false
+No
+idx:12 smallest:23
+idx:12 smallest:23
+smallest node =12 hop=3 current_node:6 Stack size=3
+Connectedness :false
+yes
+idx:9 smallest:10
+idx:9 smallest:10
+smallest node =9 hop=4 current_node:12 Stack size=4
+Connectedness :false
+No
+idx:1 smallest:25
+idx:1 smallest:25
+smallest node =1 hop=3 current_node:6 Stack size=3
+Connectedness :false
+yes
+idx:8 smallest:8
+idx:8 smallest:8
+smallest node =8 hop=4 current_node:1 Stack size=4
+Connectedness :false
+No
+idx:2 smallest:33
+idx:2 smallest:33
+smallest node =2 hop=3 current_node:6 Stack size=3
+Connectedness :false
+yes
+idx:8 smallest:4
+idx:8 smallest:4
+smallest node =8 hop=4 current_node:2 Stack size=4
+Connectedness :false
+No
+idx:9 smallest:33
+idx:9 smallest:33
+smallest node =9 hop=3 current_node:6 Stack size=3
+Connectedness :false
+yes
+idx:12 smallest:10
+idx:12 smallest:10
+smallest node =12 hop=4 current_node:9 Stack size=4
+Connectedness :false
+No
+idx:13 smallest:34
+idx:13 smallest:34
+smallest node =13 hop=3 current_node:6 Stack size=3
+Connectedness :false
+yes
+Topology
+	-1	0	0	0	0	1	0	0	0	0	1	0	0	0	1
+	0	-1	0	0	0	1	1	0	0	0	1	0	0	0	0
+	0	0	-1	0	0	1	1	0	0	0	1	0	0	0	0
+	0	0	0	-1	0	1	1	0	0	0	1	0	0	0	0
+	0	0	0	0	-1	1	1	0	0	0	1	0	0	0	1
+	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1
+	0	1	1	1	1	1	-1	1	1	1	1	1	1	1	0
+	0	0	0	0	0	1	1	-1	0	0	1	0	0	0	0
+	0	0	0	0	0	1	1	0	-1	0	1	0	0	0	0
+	0	0	0	0	0	1	1	0	0	-1	1	0	0	0	0
+	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1
+	0	0	0	0	0	1	1	0	0	0	1	-1	0	0	0
+	0	0	0	0	0	1	1	0	0	0	1	0	-1	0	0
+	0	0	0	0	0	1	1	0	0	0	1	0	0	-1	0
+	1	0	0	0	1	1	0	0	0	0	1	0	0	0	-1
+Hops
+	0	0	0	0	0	4	0	0	0	0	4	0	0	0	1
+	0	0	0	0	0	4	4	0	0	0	4	0	0	0	0
+	0	0	0	0	0	4	4	0	0	0	4	0	0	0	0
+	0	0	0	0	0	4	4	0	0	0	4	0	0	0	0
+	0	0	0	0	0	3	3	0	0	0	3	0	0	0	2
+	4	4	4	4	3	0	4	4	4	4	4	4	4	4	4
+	0	4	4	4	3	4	0	4	4	4	4	4	4	4	0
+	0	0	0	0	0	4	4	0	0	0	4	0	0	0	0
+	0	0	0	0	0	4	4	0	0	0	4	0	0	0	0
+	0	0	0	0	0	4	4	0	0	0	4	0	0	0	0
+	4	4	4	4	3	4	4	4	4	4	0	4	4	4	4
+	0	0	0	0	0	4	4	0	0	0	4	0	0	0	0
+	0	0	0	0	0	4	4	0	0	0	4	0	0	0	0
+	0	0	0	0	0	4	4	0	0	0	4	0	0	0	0
+	1	0	0	0	2	4	0	0	0	0	4	0	0	0	0
+Dgree of node :0 :3
+Dgree of node :1 :3
+Dgree of node :2 :3
+Dgree of node :3 :3
+Dgree of node :4 :4
+Dgree of node :5 :14
+Dgree of node :6 :12
+Dgree of node :7 :3
+Dgree of node :8 :3
+Dgree of node :9 :3
+Dgree of node :10 :14
+Dgree of node :11 :3
+Dgree of node :12 :3
+Dgree of node :13 :3
+Dgree of node :14 :4
+BUILD SUCCESSFUL (total time: 4 seconds)

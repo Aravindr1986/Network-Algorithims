@@ -1,0 +1,10 @@
+Introduction and problem description
+o Related work
+o Dataset description (including features, attributes, etc)
+o Pre-processing techniques
+o Your proposed solution, and methods [This section should have
+enough details – both theoretical, and practical]
+o Experimental results and analysis [Details are expected]
+o Conclusion
+o Contribution of team members
+o References

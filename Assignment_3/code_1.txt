@@ -1,0 +1,118 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package bound_branch;
+
+import java.util.ArrayList;
+import java.util.Random;
+
+/**
+ *
+ * @author Appu_Ammu
+ */
+class Nodes
+{
+    int x;
+    int y;
+    int degree;
+    
+    Nodes(int x,int y)
+    {
+        this.x=x;
+        this.y=y;
+        degree=0;
+        
+    }
+    public void print_nodes()
+    {
+        System.out.println("x = "+x+" y = "+y+" degree = "+degree);
+    }
+   public int get_cost(Nodes n1,Nodes n2)
+   {
+       int length=(int)Math.sqrt( Math.abs(Math.pow((n1.x-n2.x),2.0)-Math.pow((n1.y-n2.y),2.0)));
+       return length;
+   }
+}
+public class Bound_branch
+{
+     int V;
+     int sum;
+     int link[][];
+     int minDistance(int dist[], Boolean sptSet[])
+    {
+        // Initialize min value
+        int min = Integer.MAX_VALUE, min_index=-1;
+ 
+        for (int v = 0; v < V; v++)
+            if (sptSet[v] == false && dist[v] <= min)
+            {
+                min = dist[v];
+                min_index = v;
+            }
+ 
+        return min_index;
+    }
+    void dijkstra(int graph[][], int src)
+    {
+        int dist[] = new int[V]; 
+        Boolean sptSet[] = new Boolean[V];
+        for (int i = 0; i < V; i++)
+        {
+            dist[i] = Integer.MAX_VALUE;
+            sptSet[i] = false;
+        }
+         dist[src] = 0;
+        for (int count = 0; count < V-1; count++)
+        {
+            int x=0;
+            int u = minDistance(dist, sptSet);
+            sptSet[u] = true;
+            for (int v = 0; v < V; v++)
+                if (!sptSet[v] && graph[u][v]!=0 && dist[u] != Integer.MAX_VALUE &&  dist[u]+graph[u][v] < dist[v])
+                {
+                            dist[v] = dist[u] + graph[u][v];
+                            x=v;
+                             if(graph[u][v]==1)
+                             {
+                                 link[u][v]=1;
+                             }
+                }
+        }
+        
+    }
+   
+    public static void main(String[] args)
+    {
+         ArrayList<Nodes> q = new ArrayList();
+         Random r= new Random(100);
+         int mat[][]=new int [5][];
+         for(int i=0;i<5;i++)
+         {
+             int x=r.nextInt(100);
+             int y=r.nextInt(100);
+             System.out.println("x="+x+"y="+y);
+             Nodes n=new Nodes(x,y);
+             q.add(n);
+         }
+         for(int i=0;i<5;i++)
+         {
+            q.get(i).print_nodes();
+         }
+         for(int i=0;i<5;i++)
+         {
+             Nodes n1=q.get(i);
+             mat[i]=new int[5];
+             for(int j=0;j<5;j++)
+             {
+                 Nodes n2=q.get(j);
+                 mat[i][j]=n1.get_cost(n1, n2);
+                 System.out.println("Distance from Node "+i+" to Node "+j+" = "+n1.get_cost(n1, n2));
+             }
+         }
+         
+         
+    }
+    
+}

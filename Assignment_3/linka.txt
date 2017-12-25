@@ -1,0 +1,11 @@
+https://github.com/Apress/genetic-algorithms-in-java-basics/tree/master/GA%20in%20Java/src
+https://homepages.laas.fr/brun/drupal/sites/homepages.laas.fr.brun/files/u117/TSHeuristic.pdf
+https://www.youtube.com/watch?v=BmsC6AEbkrw
+https://www.youtube.com/watch?v=wrkMM6a4S-U
+
+https://www.slideshare.net/NvThejaswini/branch-and-bound
+
+Code
+https://github.com/edoz90/VRP-tabu
+https://github.com/CaoManhDat/TSP-TabuSearch
+https://www.youtube.com/watch?v=KzWC-t1y8Ac&index=4&list=PLTZbNwgO5eboLWN702BfpEvPShGjjlZgr
